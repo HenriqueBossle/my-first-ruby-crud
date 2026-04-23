@@ -1,5 +1,5 @@
 def show_species(specie)
-    show = specie.query("SELECT * FROM species")
+    show = specie.exec_params("SELECT * FROM species", [])
 
     puts "+-------+----------------------+----------------------+"
     puts "|ID     | Name                 | Homeworld            |"

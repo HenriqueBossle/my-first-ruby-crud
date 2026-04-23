@@ -8,6 +8,6 @@ def update_specie(specie)
     puts "Edit a homeworld: "
     homeworld = specie.escape(gets.chomp)
 
-    specie.query("UPDATE species SET name = '#{name}', homeworld = '#{homeworld}' WHERE id = '#{id}'")
+    specie.exec_params("UPDATE species SET name = $1, homeworld = $2 WHERE id = $3", [name, homeworld, id])
     puts "Specie updated"
 end

@@ -1,4 +1,4 @@
-require_relative  'database_connection'
+require_relative  'db/database_connection'
 require_relative  'menu'
 require_relative  'insert'
 require_relative  'show'
