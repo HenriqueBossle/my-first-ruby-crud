@@ -43,6 +43,14 @@ Aplicação CRUD desenvolvida em **Ruby puro**, executada via terminal, com inte
 └── .gitignore
 ```
 ---
+
+## 🔐 Boas práticas aplicadas
+
+* Uso de variáveis de ambiente para proteger credenciais
+* Queries seguras com `exec_params` (prevenção de SQL Injection)
+* Containerização com Docker
+
+---
 ## 💼 Objetivo
 
 Este projeto foi desenvolvido para aprendizado de CRUD com Ruby e Docker.
