@@ -19,7 +19,6 @@ Aplicação CRUD desenvolvida em **Ruby puro**, executada via terminal, com inte
 * Ruby
 * PostgreSQL (Neon)
 * Docker
-* Dotenv
 
 ---
 
